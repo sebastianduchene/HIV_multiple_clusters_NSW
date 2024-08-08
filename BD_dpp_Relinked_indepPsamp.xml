@@ -25,7 +25,7 @@
 
 <plate var="outbreak" range="Cluster122,Cluster161,Cluster168,Cluster246,Cluster259,Cluster266,Cluster28,Cluster323,Cluster361,Cluster375,Cluster37,Cluster413,Cluster4,Cluster533,Cluster76,Cluster81">
 <alignment spec="feast.fileio.AlignmentFromFasta" id="$(outbreak)"
-           fileName="empty_alignments/$(outbreak).fasta"/>
+           fileName="empirical_sequences/$(outbreak).fasta"/>
 </plate>
 
 <reproductiveNumber spec="feast.function.Slice" id="Re_Cluster122"
